@@ -1,6 +1,7 @@
 name: bouncy_listener
 description: An easy to use, autocancellable debouncer.
 version: 1.0.0
+repository: https://github.com/TheCarpetMerchant/bouncy_listener
 
 environment:
   sdk: '>=2.0.0 <3.0.0'
