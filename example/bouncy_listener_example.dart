@@ -1,7 +1,6 @@
 import 'package:bouncy_listener/bouncy_listener.dart';
 
 void main() async {
-
   bool callbackCalled = false;
 
   void callback() {
@@ -9,7 +8,10 @@ void main() async {
     print('Callback called');
   }
 
-  BouncyListener debouncer = BouncyListener(callback, const Duration(seconds: 1),);
+  BouncyListener debouncer = BouncyListener(
+    callback,
+    const Duration(seconds: 1),
+  );
 
   // First call
   debouncer.input();
